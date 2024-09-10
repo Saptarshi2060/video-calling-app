@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Call</title>
+  <style>
+    video {
+      width: 45%;
+      margin: 10px;
+      border: 2px solid black;
+    }
+  </style>
+</head>
+<body>
+  <h1>Video Call</h1>
+  <div>
+    <video id="localVideo" autoplay playsinline></video>
+    <video id="remoteVideo" autoplay playsinline></video>
+  </div>
+  <button id="joinBtn">Join Call</button>
+
+  <script src="/bundle.js"></script>
+</body>
+</html>
